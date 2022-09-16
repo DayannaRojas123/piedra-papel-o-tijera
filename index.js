@@ -1,3 +1,5 @@
+
+
 const person ={
     name: "pepe",
     lastname: "perez",
@@ -18,3 +20,4 @@ for (let atri in person){
 for (let ele of number){
     console.log (ele)
 }
+
