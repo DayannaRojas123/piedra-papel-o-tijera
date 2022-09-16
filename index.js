@@ -16,5 +16,5 @@ for (let atri in person){
 //for of para obejetos iterables -arrays o strings
 
 for (let ele of number){
-    consolr.log (ele)
+    console.log (ele)
 }
