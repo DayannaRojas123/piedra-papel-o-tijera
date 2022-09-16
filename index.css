@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ 
+}
+
+
+p{
+    font-size: 35px;
+}
+.cuadrado{
+    height: 300px;
+    width: 300px;
+    border: solid 1px;
+}
+.circulo{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 1px;
+    animation: cambiarcolor 1s linear 0s infinite normal forwards running; 
+
+}
+
+.cuadrado:hover{
+
+    height: 500px;
+    background-color: green;
+transition: all 3s linear 0.2;
+
+
+}
+
+@media screen and (min-width:801px) and(max-width:1200px){
+
+    body{ background-color: aqua;}
+}
+
+@keyframes cambiarcolor{
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: gold;
+
+
+    }
+}
