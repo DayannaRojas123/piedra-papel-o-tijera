@@ -1,4 +1,4 @@
-let n=0
+
 let contu=0  
 let contpc=0
 
@@ -113,4 +113,4 @@ else if(contu===contpc){
 
 }
 
-alert (result(contu,contpc))
+result(contu,contpc)
